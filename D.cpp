@@ -33,6 +33,11 @@ int d(int x){
 int main(void){
 	int x;
 	std::cin >> x;
-	std::cout << d(gt(x)) << std::endl;
+	if (x < 6){
+		std::cout << d(gt(x));
+	}
+	else{
+		std::cout << 9;
+	}
 	return 0;
 }
